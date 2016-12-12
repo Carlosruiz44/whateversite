@@ -1,0 +1,299 @@
+
+
+/*
+.navbar li {
+	line-height: 50px;
+	height:50px;
+
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}	
+	
+
+body {
+/*	padding-top: 10px;*/
+/*	margin: 2.5%;*/
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.artistbutton1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.artistbutton1:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.artistbutton2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.artistbutton2:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.artistbutton3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.artistbutton3:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.artistbutton4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.artistbutton4:hover {
+    background-color: #000000;
+    color: white;
+}
+
+img {
+	overflow: hidden;
+}
+	
+
+.fixed-bg {
+	background-image: url("images/whateverlogo.jpg");
+	overflow: hidden;
+	min-height: 300px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+
+.fixedbody {
+	height: 250px;
+	width: 100%;
+	background-color: white;
+}
+
+.fixed-bg2 {
+	background-image: url("images/homestudio.jpg");
+	overflow: hidden;
+	min-height: 350px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.fixedbody2 {
+	height: auto;
+	width: 100%;
+	background-color: white;
+}
+
+.fixed-bg3 {
+	background-image: url("images/celestial.jpg");
+	overflow: hidden;
+	min-height: 350px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.fixedbody3 {
+	height: auto;
+	width: 100%;
+	background-color: white;
+}
+
+.fixed-bg4 {
+	background-image: url("images/whateverparty.jpg");
+	overflow: hidden;
+	min-height: 350px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.fixedbody4 {
+	height: auto;
+	width: 100%;
+	background-color: white;
+
+}
+
+
+
+
+h1 {
+
+	font-family: "monospace", "Andale Mono", monospace;
+    font: bold;
+	font-size: 3em;
+    letter-spacing: -3px;
+}
+
+
+h2 {
+    font-family: "monospace", "Andale Mono", monospace;
+    font: bold;
+    font-size: 2em;
+    letter-spacing: -2px;
+}
+
+h3 {
+    font-family: "monospace", "Andale Mono", monospace;
+    font-size: 1.8em;
+    letter-spacing: -2px;
+
+}
+
+h4 {
+    font-family: "monospace", "Andale Mono", monospace;
+    font-size: 1.4em;
+    letter-spacing: -2px;
+
+}
+
+
+p, a{
+	font-family: "monospace", "Andale Mono",monospace;
+	color: black;
+	font-stretch: ultra-condensed;
+	letter-spacing: 0px;
+
+}
+
+.fixed-bgart {
+	background-image: url("images/djruez2.jpg");
+	overflow: hidden;
+	min-height: 350px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.fixedbody1art {
+	height: 250px;
+	width: 100%;
+	background-color: white;
+	line-height: auto;
+}
+
+.fixed-bg2art {
+	background-image: url("images/mavek.jpg");
+	overflow: hidden;
+	min-height: 350px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.fixedbody2art {
+	height: 250px;
+	width: 100%;
+	background-color: white;
+	line-height: auto;
+}
+
+.fixed-bg3art {
+	background-image: url("images/erikelias.jpg");
+	overflow: hidden;
+	min-height: 350px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.fixedbody3art {
+	height: auto;
+	width: 100%;
+	background-color: white;
+	line-height: auto;
+}
+
+.fixed-bg4art {
+	background-image: url("images/dandylion.jpg");
+	overflow: hidden;
+	min-height: 350px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.fixedbody4art {
+	height: 250px;
+	width: 100%;
+	background-color: white;
+	line-height: auto;
+
+}
+
+
