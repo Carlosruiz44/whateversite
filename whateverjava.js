@@ -24,7 +24,7 @@
 
 // $(window).on("load",function() {
 
-// 	$(window).scroll( function(){
+// 	$(window).scroll( function(){	
 
 // 		$('.fadesection').each(function(){
 
