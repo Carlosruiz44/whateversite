@@ -1,5 +1,48 @@
 
 
+
+// $(document).ready(function(){
+// 	$("a").on('click', function(event) {
+// 		if (this.hash !== " ") {
+// 			event.preventDefault();
+
+// 			var hash = this.hash;
+
+// 			$('html, body').animate({
+// 				scrollTop: $(hash).offset().top
+// 			}, 800, function(){
+// 				window.location.hash = hash;
+
+// 			});
+// 		}
+// 	});
+// });
+
+
+// 	$("#btn2").click(function(){
+// 		$("#myParagraph").fadeIn(1000, function(){
+// 			$("#myParagraph").css({
+// 				"font-weight":"bolder",
+// 				"color":"green"
+// 			});
+// 		});
+// 	});
+// });
+
+// $(document).ready(function(){
+// 	$(window).scroll(function(){
+// 		$("fixedbody").fadeIn(1000, function(){
+// 			$("fixedbody").css({
+// 				"font-weight":"bolder",
+// 				"color":"black"
+				
+// 			});
+// 		});
+// 	});
+// });
+
+// This is the fade out for the scroll down function in case I fuck up the code - CR
+
  $(document).ready(function() {
 
 	$(window).scroll( function(){
@@ -20,7 +63,6 @@
 
 })
 
-// Fade out code that didnt work, interfered with user experience.
 
 // $(window).on("load",function() {
 

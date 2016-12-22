@@ -1,3 +1,5 @@
+/*
+Make the pictures black and white to see how to looks*/
 
 .whateverlogo {
 	text-align: center;
@@ -108,9 +110,9 @@ img {
 	
 
 .fixed-bg {
-	background-image: url("images/whateverlogo.jpg");
+	background-image: url("images/whateverlogo_2.jpg");
 	overflow: hidden;
-	min-height: 300px;
+	min-height: 350px;
 	max-width: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -128,9 +130,9 @@ img {
 }
 
 .fixed-bg2 {
-	background-image: url("images/homestudio.jpg");
+	background-image: url("images/djruez2.jpg");
 	overflow: hidden;
-	min-height: 350px;
+	min-height: 300px;
 	max-width: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -166,7 +168,7 @@ img {
 }
 
 .fixed-bg4 {
-	background-image: url("images/whateverparty.jpg");
+	background-image: url("images/whateverparty32.jpg");
 	overflow: hidden;
 	min-height: 350px;
 	max-width: 100%;
@@ -237,7 +239,7 @@ p, a{
 }
 
 .fixed-bgart {
-	background-image: url("images/djruez2.JPG");
+	background-image: url("images/ruezpromo2.jpg");
 	overflow: hidden;
 	min-height: 350px;
 	max-width: 100%;
@@ -296,7 +298,7 @@ p, a{
 }
 
 .fixed-bg4art {
-	background-image: url("images/dandylion.jpg");
+	background-image: url("images/dandylion2.jpg");
 	overflow: hidden;
 	min-height: 350px;
 	max-width: 100%;
@@ -315,7 +317,7 @@ p, a{
 }
 
 .fixed-bgrelease {
-	background-image: url("images/songsfordreams.jpg");
+	background-image: url("images/songsfordreams2.jpg");
 	overflow: hidden;
 	min-height: 350px;
 	max-width: 100%;
