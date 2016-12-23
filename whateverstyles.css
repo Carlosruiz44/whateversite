@@ -172,7 +172,7 @@ img {
 .fixed-bg {
 	background-image: url("images/whateverlogo_2_shadow.jpg");
 	overflow: hidden;
-	min-height: 350px;
+	min-height: 325px;
 	max-width: 100%;
 	background-attachment: fixed;
 	background-position: center;
