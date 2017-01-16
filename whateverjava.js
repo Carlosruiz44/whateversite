@@ -1,6 +1,5 @@
 
-
- $(document).ready(function() {
+$(document).ready(function() {
 
 	$(window).scroll( function(){
 
@@ -19,6 +18,16 @@
 	})
 
 })
+
+ var today = new Date();
+ var year = today.getFullYear();
+
+ var el = document.getElementById('footer');
+ el.innerHTML = '<p>Copyright &copy;' + year + ' Whatever.</p>';
+
+ 
+
+
 
 // Fade out code that didnt work, interfered with user experience.
 
